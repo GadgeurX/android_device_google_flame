@@ -10,8 +10,8 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_KERNEL_CONFIG := floral_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/msm-4.14
+TARGET_KERNEL_CONFIG := maru_defconfig
+TARGET_KERNEL_SOURCE := kernel/google/flame
 TARGET_NEEDS_DTBOIMAGE := true
 
 # Lineage Health
